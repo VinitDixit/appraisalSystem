@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class AppraisalApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Running Appraisal Application");
 		SpringApplication.run(AppraisalApplication.class, args);
 	}
 
